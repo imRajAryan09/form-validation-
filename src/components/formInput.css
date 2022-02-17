@@ -9,11 +9,11 @@ input {
 	margin: 10px 0px;
 	border-radius: 5px;
 	border: 1px solid gray;
-    outline: none;
+	outline: none;
 }
 
 input:focus {
-    border: 1px solid rgb(77, 1, 77);
+	border: 1px solid rgb(77, 1, 77);
 }
 
 label {
@@ -34,4 +34,17 @@ input:invalid[focused="true"] {
 
 input:invalid[focused="true"] ~ span {
 	display: block;
+}
+
+@media only screen and (max-width: 600px) {
+	input {
+		padding: 10px;
+	}
+
+	label {
+		font-size: 14px;
+	}
+	span {
+		font-size: 10px;
+	}
 }

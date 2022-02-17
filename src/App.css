@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
 .App {
 	display: flex;
 	align-items: center;
@@ -11,7 +11,7 @@
 		url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
 	background-size: cover;
 	background-position: center;
-    font-family: 'Source Sans Pro', sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 }
 
 form {
@@ -21,7 +21,7 @@ form {
 }
 
 h1 {
-    margin: 20px 0;
+	margin: 20px 0;
 	color: rgb(77, 1, 77);
 	text-align: center;
 }
@@ -31,7 +31,7 @@ button {
 	height: 50px;
 	padding: 10px;
 	border: none;
-    outline: none;
+	outline: none;
 	background-color: rebeccapurple;
 	color: white;
 	border-radius: 5px;
@@ -40,4 +40,17 @@ button {
 	cursor: pointer;
 	margin-top: 15px;
 	margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+	form {
+		padding: 0px 30px;
+	}
+	h1 {
+		margin: 10px 0;
+	}
+
+	button {
+		font-size: 16px;
+	}
 }
